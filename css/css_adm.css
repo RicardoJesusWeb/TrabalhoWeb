@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif ; 
+	color:#999;
+	background-image:url(../imagem/topo.jpg); 
+	background-repeat:repeat-x;
+	padding:0;
+	margin:0;
+}
+#topo{
+	height:170px;
+	width:800px;
+}  
+.inicio { 
+	padding: 0;
+	margin: 0; 
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+	display:table;
+}
+.inicio  li{ 
+	display: inline-block;  
+} 
+.inicio li img{
+	width: 250px;
+	align-items: center;
+}
+.inicio p {
+	text-align: center;
+}
+#adm{
+	margin: 0 auto;
+  	width: 800px;
+}
+	
+#filenotfound{
+	max-width: 800px;
+	min-width: 600px;
+	text-align: center; 
+}
+	
+#menu ul {
+	font-size: 11px;
+	min-width:150px;
+	min-height: 300px; 
+	float: left;
+	list-style:  none;
+	margin: 0;
+	padding: 0;  
+}
+
+#menu a { 
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	display: block;
+	margin: 0;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+#menu a:hover {
+	background: #2580a2  left center no-repeat;
+	color: #fff;
+	padding-bottom: 8px;
+}
+#formulario form fieldset *{
+	width: 600px;
+	max-width: 600px;
+	min-width: 600px;
+}
+#formulario form fieldset{ 
+ 	border:0;
+	padding: 0 15px 10px 15px ;
+} 
+#formulario form button{
+	width: 150px	;
+	float: right; 
+	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+#formulario form button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+#formulario form button:active {
+	position:relative;
+	top:1px;
+}
+
+#formulario form fieldset legend {
+	font-size: 22px;
+	color: #000;
+	padding-bottom: 10px; 
+}
+#formulario form label{
+	display:block;
+	padding: 3px 0; 
+}
+
+#formulario form label span{
+	display: block;
+	font-size:12px;
+	color:#666666;
+	line-height:30px;
+}
+
+#formulario form label input, select option { 
+	color:#000;
+	height: 30px;
+	padding:3px 0;
+	width: 350px;
+}
+
+#formulario form label textarea, select { 
+	color:#000;
+	height: 40px;
+	padding:3px 0; 
+}
+
+#formulario form input .btn{
+	display:block;
+	width: 120px;
+	padding: 5px 0;
+	margin: 10px auto 0;
+	border:0;
+	background:#036;
+	color:#FFF;
+	cursor:pointer;
+}
+
+#formulario{
+	width: auto ;
+	float: left;
+}
+#conteudo{
+	width:100%;
+	float:left;
+}
+#rodape{
+	clear:both;
+	width:800px;
+	text-align:center;
+	height: 50px;
+	padding-top:30px;
+}
+p{
+	font-size:13px;
+	color:#999;
+}
+
+h4{
+	font-size:18px;
+	color:#999;
+}
+
+address{
+	font-size:13px;
+	color:#900;
+}
+h1{
+	font-weight:100;
+	font-size:18px;	
+}
